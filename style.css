@@ -1,0 +1,23 @@
+html {
+    font-family: arial;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+body {
+    background-color: rgb(197, 186, 166);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+toolbar {
+    position: sticky;
+    top: 0;
+    height: 7%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    z-index:1;
+}
